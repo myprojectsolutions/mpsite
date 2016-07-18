@@ -78,3 +78,8 @@ footer .footer-below {
   border: 2px solid white;
   border-radius: 50%;
 }
+
+#servicos{
+  background-color: yellow;
+  text-align: center;
+}
