@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -73,21 +73,21 @@
   </section>
 
     <!--Sess�o Fale Conosco -->
-    <section id="faleconosco">
-      <form>
+   <section id="faleconosco">
+      <form enctype="text/plain" action="https://formspree.io/myproject.unifor@gmail.com"  method="POST">
         Seu nome:<br>
         <input type="text" name="name">
         <br>
         Seu email:<br>
-        <input type="text" mail="email">
+        <input type="text" name="email">
         <br>
         Assunto:<br>
-        <input type="text" subjectmessage="subjectmessage">
+        <input type="text" name="subjectmessage">
         <br>
         Mensagem:<br>
         <textarea name="message" rows="10" cols="30">Digite sua mensagem...</textarea>
         <br>
-        <input type="button" onclick="alert('Sua mensagem foi enviada, dentro de 24h iremos responder para o seu email. Obrigado.')" value="Enviar Mensagem">
+        <input type="submit" onclick="alert('Sua mensagem foi enviada, dentro de 24h iremos responder para o seu email. Obrigado.')" value="Enviar Mensagem" > 
       </form>
     </section>
 
@@ -120,7 +120,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes Sociais</h3>
-                        
+
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Contato</h3>
