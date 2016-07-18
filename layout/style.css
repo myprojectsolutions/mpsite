@@ -1,0 +1,55 @@
+
+.navbar-custom {
+  background: #4D0151;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+.navbar-custom a:focus {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #CFCFCF;
+  outline: none;
+}
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+
+footer {
+  color: white;
+}
+
+footer .footer-above {
+  padding-top: 20px;
+  background-color: #4D0151;
+}
+footer .footer-col {
+  margin-bottom: 10px;
+}
+footer .footer-below {
+  padding: 10px 0px;
+  background-color: black;
+}
