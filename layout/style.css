@@ -26,6 +26,14 @@
   outline: none;
 }
 
+.page-scroll{
+  font-size: 14px;
+}
+
+.navbar-brand{
+  font-size: 22px;
+}
+
 section {
   padding: 100px 0;
 }
