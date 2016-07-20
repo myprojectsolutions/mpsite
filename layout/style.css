@@ -2,13 +2,12 @@ body{
 background: #471049;
 color: white;
 text-align: center;
+font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-custom {
-  background: rgba(0,0,0,0.5);
-  font-family: "Monoscape"
+  background: rgb(26,6,29);
   text-transform: uppercase;
-  font-weight: 700;
   border: none;
 }
 
@@ -61,9 +60,24 @@ section.success {
 
 footer .footer-below {
   padding: 15px 0px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgb(26,6,29);
 }
 
 #mainNav{
   padding: 10px;
+}
+
+
+hr.style-seven {
+   border: 0;
+   height: 0;
+   box-shadow: 0 0 7px 2px black;
+   background: white;
+}
+hr.style-seven:after {
+   content: "\00a0";
+}
+
+#titulo{
+  padding-top: 100px;
 }
