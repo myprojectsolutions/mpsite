@@ -80,3 +80,11 @@ hr.style-seven:after {
 #titulo{
   padding-top: 100px;
 }
+
+textarea{
+  color:black;
+}
+
+.botao{
+  color: black;
+}
