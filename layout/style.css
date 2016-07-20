@@ -1,26 +1,36 @@
+body{
+background: #471049;
+color: white;
+text-align: center;
+}
 
 .navbar-custom {
-  background: #4D0151;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgba(0,0,0,0.5);
+  font-family: "Monoscape"
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
+
 .navbar-custom a:focus {
   outline: none;
 }
+
 .navbar-custom .navbar-brand {
   color: white;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: white;
 }
+
 .navbar-custom .navbar-nav li a {
   color: white;
 }
+
 .navbar-custom .navbar-nav li a:hover {
   color: #CFCFCF;
   outline: none;
@@ -28,6 +38,7 @@
 
 .page-scroll{
   font-size: 14px;
+  left: auto;
 }
 
 .navbar-brand{
@@ -37,49 +48,22 @@
 section {
   padding: 100px 0;
 }
+
 section h2 {
   margin: 0;
   font-size: 3em;
 }
+
 section.success {
-  background: #18BC9C;
+  background: yellow;
   color: white;
 }
 
-footer {
-  color: white;
-}
-
-footer .footer-above {
-  padding-top: 20px;
-  background-color: #4D0151;
-}
-footer .footer-col {
-  margin-bottom: 10px;
-}
 footer .footer-below {
-  padding: 10px 0px;
-  background-color: black;
+  padding: 15px 0px;
+  background-color: rgba(0,0,0,0.5);
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-  color: #18BC9C;
-  background: white;
-  border: solid 2px white;
-}
-
-.btn-social {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
-#servicos{
-  background-color: yellow;
-  text-align: center;
+#mainNav{
+  padding: 10px;
 }
