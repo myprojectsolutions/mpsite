@@ -1,7 +1,7 @@
 body{
   background: #471049;
   color: white;
-  text-align: center;
+  text-align: center;;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,7 +78,8 @@ hr.style-seven:after {
 }
 
 #titulo{
-  padding-top: 100px;
+  margin-top: 130px;
+  margin-bottom: -10px;
 }
 
 textarea{
@@ -87,4 +88,18 @@ textarea{
 
 .botao{
   color: black;
+}
+
+img{
+  width: 340px;
+  height: 170px;
+}
+
+#servicos h1{
+  font-size: 25px;
+}
+
+#servicos p{
+  font-size: 15px;
+  text-align: center;
 }
