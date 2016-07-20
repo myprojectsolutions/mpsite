@@ -1,13 +1,12 @@
 body{
-background: #471049;
-color: white;
-text-align: center;
-font-family: 'Montserrat', sans-serif;
+  background: #471049;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-custom {
   background: rgb(26,6,29);
-  text-transform: uppercase;
   border: none;
 }
 
@@ -67,13 +66,13 @@ footer .footer-below {
   padding: 10px;
 }
 
-
 hr.style-seven {
    border: 0;
    height: 0;
    box-shadow: 0 0 7px 2px black;
    background: white;
 }
+
 hr.style-seven:after {
    content: "\00a0";
 }
